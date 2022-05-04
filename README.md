@@ -22,11 +22,13 @@ Many things could happen to the unadopted. Some go to other shelters with hopes 
   
 As the most populous state in the United States, California has a history of a high number of shelter euthanasia cases. From 2016 to 2019, shelters in the state put down an average of 76,000 cats and dogs annually. In the past six years, California has put down the most animals among all states in the country, plus Washington DC, and US territories.
 
-  [![Question2-visualization1](Question2-visualization1.jpg) ](https://datawrapper.dwcdn.net/D4m25/4/）)
+  [![Question2-visualization1](Question2-visualization1.jpg)](https://datawrapper.dwcdn.net/D4m25/5/)
   
 Meanwhile, California has been progressive in pursuing no-kill practices in animal shelters. Since 2020, California has funded shelter-support programs with the state budget and passed multiple legislation [banning the retail sale of animals](https://www.gov.ca.gov/2020/09/18/ahead-of-national-puppy-mill-awareness-day-governor-newsom-signs-legislation-protecting-animal-welfare/). In 2021, the city of Los Angeles officially became [the largest no-kill city](https://www.cnn.com/2021/03/20/us/los-angeles-becomes-no-kill-city-trnd/index.html) in the country, as the life-saving rate had reached the commonly defined no-kill standard of 90%。
 
 Best Friends Animal Society, one of the biggest national advocating organizations for no-kill practices, reported [an over 60% drop](https://s3fs.bestfriends.org/s3fs-public/211907_State%20Ranking%202021_ECM.pdf) in overall shelter deaths in California by 2020.
+
+[![Question2-visualization2](Question2-visualization2.jpg) ](https://infogram.com/untitled-infographic-1h8n6m350g00z4x?live)
 
 But how did that come to be?
 
@@ -64,21 +66,21 @@ This section documents the data analysis process for future reference.
   #### Data Source ####
   __1. The Shelter Animals Count National Database__
     
-  This original dataset is acquired through official request to [The Shelter Animals Count](https://www.shelteranimalscount.org/). However, this dataset is huge (127 megabytes) and was not fit for OpenRefine or google doc. Therefore, I used R studio to extract the portions I needed to perform further analysis. Original Data can be viewed [here](链接链接)
+  This original dataset is acquired through official request to [The Shelter Animals Count](https://www.shelteranimalscount.org/). However, this dataset is huge (127 megabytes) and was not fit for OpenRefine or google doc. Therefore, I used R studio to extract the portions I needed to perform further analysis. Original Data can be viewed [here]([Original]shelter_animal_count_full_data.csv.zip)
   
   1.1 Subset: California Data
     
-  The first subset I extracted is all data with a [state] value of CA. It contains all available shelter data in California. Data can be viewed [here](链接链接)
+  The first subset I extracted is all data with a [state] value of CA. It contains all available shelter data in California. Data can be viewed [here]([For_analysis]California_Shelter_Data.csv)
     
   1.2 subset: All State Euthanasia by Year
     
-  The second subset is all state euthanasia numbers by year. It contains only euthanasia numbers in each state and which year the data was for. Data can be viewed [here](链接链接).
+  The second subset is all state euthanasia numbers by year. It contains only euthanasia numbers in each state and which year the data was for. Data can be viewed [here]([For_analysis]California_Shelter_Data.csv).
   
   __2. The Best Friends Animal Society State-by-state Ranking data__
     
-  This data is published by Best Friends Animal Society and can be accessed [here](https://s3fs.bestfriends.org/s3fs-public/211907_State%20Ranking%202021_ECM.pdf). Analyzed data can be viewed [here](链接链接)
-    
-  *Creator's note: Please not that while Best Friends Animal Society's data is called no-kill, it is not the actual number of euthnasia. Their calculation method is introduced in their [methodology page](https://bestfriends.org/map-methodology).* 
+  This data is published by Best Friends Animal Society and can be accessed [here](https://s3fs.bestfriends.org/s3fs-public/211907_State%20Ranking%202021_ECM.pdf). This has been used as a reference but I decided not to use it for analysis.
+  
+  *Creator's note: Please note that while Best Friends Animal Society's data is called no-kill, it is not the actual number of euthnasia. Their calculation method is introduced in their [methodology page](https://bestfriends.org/map-methodology).* 
     
   #### Interview Source ####
     
@@ -147,7 +149,7 @@ After that process I have found no major cleaning issue with this dataset, and d
     ![Question1-1](Question1-1.jpg)   ![Question1-2](Question1-2.jpg)
     ![Question1-3](Question1-3.jpg)
     
-    [![Question1-visualization1](Question1-visualization1.jpg) ](https://infogram.com/question-1-data-vis-1h7g6k0590goo2o?live)
+    [![Question1-visualization1](Question1-visualization1.jpg)](https://datawrapper.dwcdn.net/D4m25/5/)
   
 #### Question 2: How many cats and dogs are euthanaized from 2016 to 2021? What's California's ranking in the US (comparing to other states)? How did euthanasia rate changed over these years?####
 1. Add column and name it "euthanasia_sum", apply function "=SUM(BV2:BX2)", and calculate the sum of euthanized animals.
@@ -162,11 +164,11 @@ After that process I have found no major cleaning issue with this dataset, and d
     
     ![Question2-1](Question2-1.jpg)   ![Question1-2](Question2-2.jpg)
     ![Question2-3](Question2-3.jpg)
-    [![Question2-visualization1](Question2-visualization1.jpg) ](https://datawrapper.dwcdn.net/D4m25/4/）)
+    [![Question2-visualization1](Question2-visualization1.jpg)](https://datawrapper.dwcdn.net/D4m25/4/)
 6. For euthanasia rate, calculate on the pivot table using available statistics, and the formula mentioned above. Please refer to this pivot table
     ![Question2-4](Question2-4.jpg)
     then apply the data acquired from calculation to infogram.
-    [![Question2-visualization2](Question2-visualization2.jpg) ](https://datawrapper.dwcdn.net/D4m25/4/）)
+    [![Question2-visualization2](Question2-visualization2.jpg) ](https://infogram.com/untitled-infographic-1h8n6m350g00z4x?live)
     
 #### Question 3: How does the adoption and euthanasia rate differ between cats and dogs? #### 
     
