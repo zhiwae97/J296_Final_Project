@@ -14,14 +14,19 @@ Within 24 hours, Friends of Oakland Animal Services (FOAS), a local non-profit s
 Robbie is one of the lucky animals. "He would have been euthanized. That (the surgery) was a lot of money," said Tony Cruz, Executive Director of FOAS. But for the past three years in California, more animals like Robbie were saved instead of being put down.
   
 One of the biggest challenges for animal welfare in the US is the sheer number of animals coming into shelters, according to the American Society for the Prevention of Cruelty to Animals (ASPCA). In the state of California, approximately 380,000 cats and dogs enter shelters every year, and only half of them would get adopted.
+
+  [![Question1-visualization1](Question1-visualization1.jpg) ](https://infogram.com/question-1-data-vis-1h7g6k0590goo2o?live)
+  [![Question3-visualization1](Question3-visualization1.jpg)](https://infogram.com/question-3-vis-1-1h7j4dvy055794n?live)
   
 Many things could happen to the unadopted. Some go to other shelters with hopes of adoption opportunities elsewhere, some return to the wild after spaying and neutering, and a few escape by accident. Still, for the rest, death is almost certain.
   
 As the most populous state in the United States, California has a history of a high number of shelter euthanasia cases. From 2016 to 2019, shelters in the state put down an average of 76,000 cats and dogs annually. In the past six years, California has put down the most animals among all states in the country, plus Washington DC, and US territories.
-  
-Meanwhile, California has been progressive in pursuing no-kill practices in animal shelters. Since 2020, California has funded shelter-support programs with the state budget and passed multiple legislation banning the retail sale of animals. In 2021, the city of Los Angeles officially became the largest no-kill city in the country, as the life-saving rate had reached the commonly defined no-kill standard of 90%。
 
-Best Friends Animal Society, one of the biggest national advocating organizations for no-kill practices, reported an over 60% drop in overall shelter deaths in California by 2020.
+  [![Question2-visualization1](Question2-visualization1.jpg) ](https://datawrapper.dwcdn.net/D4m25/4/）)
+  
+Meanwhile, California has been progressive in pursuing no-kill practices in animal shelters. Since 2020, California has funded shelter-support programs with the state budget and passed multiple legislation [banning the retail sale of animals](https://www.gov.ca.gov/2020/09/18/ahead-of-national-puppy-mill-awareness-day-governor-newsom-signs-legislation-protecting-animal-welfare/). In 2021, the city of Los Angeles officially became [the largest no-kill city](https://www.cnn.com/2021/03/20/us/los-angeles-becomes-no-kill-city-trnd/index.html) in the country, as the life-saving rate had reached the commonly defined no-kill standard of 90%。
+
+Best Friends Animal Society, one of the biggest national advocating organizations for no-kill practices, reported [an over 60% drop](https://s3fs.bestfriends.org/s3fs-public/211907_State%20Ranking%202021_ECM.pdf) in overall shelter deaths in California by 2020.
 
 But how did that come to be?
 
@@ -36,6 +41,8 @@ During the pandemic, the Animal Control Officer of Oakland received a report tha
 The officer found out that it was a loving home for this animal, but they had fallen under some financial hardships and could not afford to care for the dog's medical situation. Instead of taking that animal away and into shelters, FOAS eventually came up with ways to fundraise and help the owner with medical costs.
   
 The key is offering help to owners, working with low-income communities, and keeping animals in homes in the first place, McDevitt said. "Happy dogs, happy guardians, and we would have one more room in the shelters."
+
+[![Question5-visualization1](Question5-visualization1.jpg)](https://infogram.com/question-5-vis-1-1hzj4o35jrw534p?live)
   
 The cost, Cruz and McDevitt said, is much lower to keep animals in homes instead of taking them into shelters. As part of the effort, FOAS also helps shelters with pet fostering programs, monthly low-cost and free spay and neuter events for community cats, and nearly daily adoption events. The best way to lower shelter intakes and euthanasia is to make saving animals a community-wide effort and let shelters be a last resort for the animals that really need it, they said.
   
