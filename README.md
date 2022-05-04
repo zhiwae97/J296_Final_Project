@@ -73,7 +73,7 @@ This section documents the data analysis process for future reference.
     
   *Creator's note: Please not that while Best Friends Animal Society's data is called no-kill, it is not the actual number of euthnasia. Their calculation method is introduced in their [methodology page](https://bestfriends.org/map-methodology).* 
     
-  ####Interview Source####
+  #### Interview Source ####
     
   __1.Tony Cruz, Executive Directoer of non-profit Friends of Oakland Animal Services__
     
@@ -96,7 +96,7 @@ Email: info@nokilladvocacycenter.org
   
 Nathan is only available by email but he could provide insight into the challenges of the no-kill campaign, especially in terms of legal difficulties. Nathan's No Kill Advocacy Center is based also in Oakland, CA and has been pushing for animal welfare legislation nationwide.
   
-####Methodology Note####
+#### Methodology Note ####
   
 To calculate euthanasia rate in this piece, I am referring to [this academic paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4217190/#ref-13), who introduced one of the ways to calculate. This method may be different than some other calculation formulas, such as the ones used by Best Friends Animal Society, etc. 
     
@@ -134,9 +134,12 @@ After that process I have found no major cleaning issue with this dataset, and d
   
 4. Create Pivot Table as shown in the screenshot, and calculate average annual intake and adoption, as well as average adoption rate, remember to apply species names as filters and select cats and dogs only
     
-    **Therefore reached the conclusion that from 2016-2021, an average of 380k animals enter shelter every year, and only half gets adopted.**
-    ![Question1-1](链接链接)     ![Question1-2](链接链接)     <br>![Question1-3](链接链接)
-    ![Question1-visualization1](链接链接)（链接图片后 给图片加超链接到：https://infogram.com/question-1-data-vis-1h7g6k0590goo2o?live
+    **Therefore reached the conclusion that from 2016-2021, an average of 380k animals enter shelter every year, and only half gets adopted. **
+      
+    ![Question1-1](Question1-1.jpg)   ![Question1-2](Question1-2.jpg)
+    ![Question1-3](Question1-3.jpg)
+    
+    [![Question1-visualization1](Question1-visualization1.jpg) ](https://infogram.com/question-1-data-vis-1h7g6k0590goo2o?live)
   
 #### Question 2: How many cats and dogs are euthanaized from 2016 to 2021? What's California's ranking in the US (comparing to other states)? ####
 1. Add column and name it "euthanasia_sum", apply function "=SUM(BV2:BX2)", and calculate the sum of euthanized animals.
@@ -149,10 +152,9 @@ After that process I have found no major cleaning issue with this dataset, and d
 
 5. Create pivot table as shown in the screenshot. Apply filters with year of record, which presents euthanasia numbers of each state by year. By selecting 2016 through 2021, we get a overview of how many animals was euthanized by each state in these six years, and California ranks top among all states plus DC and US territories.
     
-   ![Question2-1](链接链接) ![Question2-2](链接链接) ![Question2-3](链接链接)
-   ![Question2-visualization1](链接链接)(链接图片后 给图片加超链接到：https://datawrapper.dwcdn.net/D4m25/4/）
-    
-
+    ![Question2-1](Question2-1.jpg)   ![Question1-2](Question2-2.jpg)
+    ![Question2-3](Question2-3.jpg)
+    [![Question2-visualization1](Question2-visualization1.jpg) ](https://datawrapper.dwcdn.net/D4m25/4/）)
     
     
 #### Question 3: How does the adoption and euthanasia rate differ between cats and dogs? #### 
@@ -161,15 +163,15 @@ After that process I have found no major cleaning issue with this dataset, and d
    
    2. Calculate adoption rate and euthanasia rate by dividing the sum number by total intake number. Reach conclusion that around 52% of cats and 48% dogs get to be adopted. 23%-24% of cats, and less than 10% of dogs are euthanized in the past six years.
      
-   ![Question3-1](链接链接)
-   ![Question3-visualization1](链接链接) (链接图片后 给图片加超链接到：https://infogram.com/question-3-vis-1-1h7j4dvy055794n?live)
+   ![Question3-1](Question3-1.jpg)
+   [![Question3-visualization1](Question3-visualization1.jpg)](https://infogram.com/question-3-vis-1-1h7j4dvy055794n?live)
     
 #### Question 4: How did adoption rate change before and after Covid break out? How did adoption number change? ####
   1. Create pivot table as shown in the screenshot
   2. Calculate adoption rate for 2016-2019 and 2020-2021 respectively for comparison.
   3.As screenshot shows, adoption increase since 2020 from 49% to around 54%, yet the total number of adoption dropped.
     
-  ![Question4-1](链接链接)
+  ![Question4-1](Question4-1.jpg)
     
 #### What happened to Oakland Animal Service's euthanasia rate? Before and since the beginning of the pandemic ####
   
@@ -177,8 +179,9 @@ After that process I have found no major cleaning issue with this dataset, and d
   2. Calculate adoption rate and euthanasia rate like demonstrated above. OAS skipped reporting data in 2016, so this part will start from 2017.
   3. Reach conclusion that Oakland Animal Services showed significant increase in adoption rate and decrease in euthanasia rate.
     
-  ![Question5-1](链接链接)
-  ![Question5-visualization1](链接链接)(链接图片后 给图片加超链接到：https://infogram.com/question-5-vis-1-1hzj4o35jrw534p?live)
+  ![Question5-1](Question5-1.jpg)
+  
+  [![Question5-visualization1](Question5-visualization1.jpg)](https://infogram.com/question-5-vis-1-1hzj4o35jrw534p?live)
     
  
  
