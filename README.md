@@ -30,7 +30,7 @@ by Zhiwei Feng
 
 *Author's note: Shelter Euthanasia data are extremely difficult to pinpoint precisely. All current datasets rely on monthly self-report from animal shelters around the US, and may not cover all shelters in operation. The analysis of this story relied mostly on the The Shelter Animals Count dataset, which is one of the largest and most comprehensive collection of shelter data nationwide. Part of the story also referred to dataset published by Best Friends Animal Society, another shelter data collecting organization. Euthanasia data from before 2016 are largely incomplete, therefore this story mostly refer to data dated between 2016 to 2021.* 
 
-<h2> Data Diary
+<h2> Data Diary</h2>
 This section documents the data analysis process for future reference.
   <h3>I. Sourcing</h3>
   <h4>Data Source:</h4>
