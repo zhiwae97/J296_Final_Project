@@ -107,7 +107,8 @@ Nathan is only available by email but he could provide insight into the challeng
   
 To calculate euthanasia rate in this piece, I am referring to [this academic paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4217190/#ref-13), who introduced one of the ways to calculate. This method may be different than some other calculation formulas, such as the ones used by Best Friends Animal Society, etc. 
     
-*"The euthanasia rate is calculated by dividing the number of cats euthanized by total live intake, less owner requested euthanasia, and dead on arrival, in accordance with Maddie’s Fund/Asilomar reporting requirements (Maddie’s Fund, 2011). The Save Rate is calculated by subtracting the euthanasia rate from 100. The euthanasia rate does not include those cats who died of natural causes while in the shelter, which is 1% or less annually."*
+  *"The euthanasia rate is calculated by dividing the number of cats euthanized by total live intake, less owner requested euthanasia, and dead on arrival, in accordance with Maddie’s Fund/Asilomar reporting requirements (Maddie’s Fund, 2011). The Save Rate is calculated by subtracting the euthanasia rate from 100. The euthanasia rate does not include those cats who died of natural causes while in the shelter, which is 1% or less annually."*  
+  ---- Johnson, Karen L, and Jon Cicirelli. “Study of the effect on shelter cat intakes and euthanasia from a shelter neuter return project of 10,080 cats from March 2010 to June 2014.” PeerJ vol. 2 e646. 30 Oct. 2014.
   
 ### II. Data Analysis Questions and Visualizations ###
 
@@ -148,21 +149,24 @@ After that process I have found no major cleaning issue with this dataset, and d
     
     [![Question1-visualization1](Question1-visualization1.jpg) ](https://infogram.com/question-1-data-vis-1h7g6k0590goo2o?live)
   
-#### Question 2: How many cats and dogs are euthanaized from 2016 to 2021? What's California's ranking in the US (comparing to other states)? ####
+#### Question 2: How many cats and dogs are euthanaized from 2016 to 2021? What's California's ranking in the US (comparing to other states)? How did euthanasia rate changed over these years?####
 1. Add column and name it "euthanasia_sum", apply function "=SUM(BV2:BX2)", and calculate the sum of euthanized animals.
 
 2. Turn to the pivot table and add euthanasia_sum as value, and can see the number of euthanized animals of each year as well as the total(368431). Remember to apply species names as filters and select cats and dogs only
 
-3. Calculate the average euthanasia rate of 2016-2019, which is 18.35%. Using the same method, the average euthanasia rate of 2020-2021 is 10.50%
+3. Calculate the average euthanasia rate of 2016-2019 by deviding euthanasia with total live intakes, as decribed in the methodology note. The rate is 18.35%. Using the same method, the average euthanasia rate of 2020-2021 is 10.50%. 
 
-4. Move to *All State Euthanasia* data set, add a column and name it euthanasia sum, apply function similar to what have been done above to calculate the sum of euthanasia for all ages.
+4. Move to *All State Euthanasia* data set, add a column and name it "euthanasia_sum“, apply function similar to what have been done above to calculate the sum of euthanasia for all ages.
 
 5. Create pivot table as shown in the screenshot. Apply filters with year of record, which presents euthanasia numbers of each state by year. By selecting 2016 through 2021, we get a overview of how many animals was euthanized by each state in these six years, and California ranks top among all states plus DC and US territories.
     
     ![Question2-1](Question2-1.jpg)   ![Question1-2](Question2-2.jpg)
     ![Question2-3](Question2-3.jpg)
     [![Question2-visualization1](Question2-visualization1.jpg) ](https://datawrapper.dwcdn.net/D4m25/4/）)
-    
+6. For euthanasia rate, calculate on the pivot table using available statistics, and the formula mentioned above. Please refer to this pivot table
+    ![Question2-4](Question2-4.jpg)
+    then apply the data acquired from calculation to infogram.
+    [![Question2-visualization2](Question2-visualization2.jpg) ](https://datawrapper.dwcdn.net/D4m25/4/）)
     
 #### Question 3: How does the adoption and euthanasia rate differ between cats and dogs? #### 
     
@@ -174,13 +178,14 @@ After that process I have found no major cleaning issue with this dataset, and d
    [![Question3-visualization1](Question3-visualization1.jpg)](https://infogram.com/question-3-vis-1-1h7j4dvy055794n?live)
     
 #### Question 4: How did adoption rate change before and after Covid break out? How did adoption number change? ####
-  1. Create pivot table as shown in the screenshot
-  2. Calculate adoption rate for 2016-2019 and 2020-2021 respectively for comparison.
+  1. Create pivot table as shown in the screenshot, can also add year of record as filter to remove distractions.
+  2. Calculate adoption rate for 2016-2019 and 2020-2021 respectively for comparison by deviding adoption cases with total live intakes.
   3.As screenshot shows, adoption increase since 2020 from 49% to around 54%, yet the total number of adoption dropped.
     
   ![Question4-1](Question4-1.jpg)
+
     
-#### What happened to Oakland Animal Service's euthanasia rate? Before and since the beginning of the pandemic ####
+#### Question 5: What happened to Oakland Animal Service's euthanasia rate? Before and since the beginning of the pandemic ####
   
   1. Create pivot table as shown in the screenshot, be mindful of adding organization name: Oakland Animal Service as filter, as well as animal species.
   2. Calculate adoption rate and euthanasia rate like demonstrated above. OAS skipped reporting data in 2016, so this part will start from 2017.
