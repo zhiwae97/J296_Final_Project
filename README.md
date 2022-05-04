@@ -66,6 +66,7 @@ The data aquired from all sources appeared to have been cleaned for analysis. To
     <br>1. All City, County, State names are spelled correctly.
     <br>2. Animal Shelter names do not have similar clusters, and are spelled correctly.
     <br>3. Number, date, and other formats appears to be correct.
+After that process I have found no major cleaning issue with this dataset, and decided to move on with the analysis.
   
 
   <h4> Question Overview </h4>
@@ -86,16 +87,17 @@ The data aquired from all sources appeared to have been cleaned for analysis. To
     
     **Therefore reached the conclusion that from 2016-2021, an average of 380k animals enter shelter every year, and only half gets adopted.**
     ![Question1-1](链接链接)     ![Question1-2](链接链接)     <br>![Question1-3](链接链接)
-    ![Question1-visualization1](链接链接)
+    ![Question1-visualization1](链接链接)（链接图片后 给图片加超链接到：https://infogram.com/question-1-data-vis-1h7g6k0590goo2o?live
   
   <h4>Question 2: How many cats and dogs are euthanaized from 2016 to 2021? What's California's ranking in the US (comparing to other states)?</h4>
     <br>1. Add column and name it "euthanasia_sum", apply function "=SUM(BV2:BX2)", and calculate the sum of euthanized animals.
     <br>2. Turn to the pivot table and add euthanasia_sum as value, and can see the number of euthanized animals of each year as well as the total(368431). Remember to apply species names as filters and select cats and dogs only
     <br>3. Calculate the average euthanasia rate of 2016-2019, which is 18.35%. Using the same method, the average euthanasia rate of 2020-2021 is 10.50%
     <br>4. Move to *All State Euthanasia* data set, add a column and name it euthanasia sum, apply function similar to what have been done above to calculate the sum of euthanasia for all ages.
-    <br> 5. Create pivot table as shown in the screen shot. Apply filters with year of record, which presents euthanasia numbers of each state by year. By selecting 2016 through 2021, we get a overview of how many animals was euthanized by each state in these six years, and California ranks top among all states plus Washington DC and Puerto Rico.
+    <br> 5. Create pivot table as shown in the screenshot. Apply filters with year of record, which presents euthanasia numbers of each state by year. By selecting 2016 through 2021, we get a overview of how many animals was euthanized by each state in these six years, and California ranks top among all states plus DC and US territories.
     
     ![Question2-1](链接链接) ![Question2-2](链接链接) ![Question2-3](链接链接)
+    ![Question2-visualization1](链接链接)(链接图片后 给图片加超链接到：https://datawrapper.dwcdn.net/D4m25/4/）
     
 
     
@@ -104,12 +106,12 @@ The data aquired from all sources appeared to have been cleaned for analysis. To
     <br>1. (Return to California Shelter Data) Create a pivot table as shown in the screenshot, remember to apply the selected years(2016-2021) and animal species as filters.
     <br>2. Calculate adoption rate and euthanasia rate by dividing the sum number by total intake number. Reach conclusion that around 52% of cats and 48% dogs get to be adopted. 23%-24% of cats, and less than 10% of dogs are euthanized in the past six years.
     ![Question3-1](链接链接)
-    ![Question3-visualization1](链接链接)
+    ![Question3-visualization1](链接链接) (链接图片后 给图片加超链接到：https://infogram.com/question-3-vis-1-1h7j4dvy055794n?live)
     
   <h4>Question 4: How did adoption rate change before and after Covid break out? How did adoption number change? </h4>
     <br>1. Create pivot table as shown in the screenshot
     <br>2. Calculate adoption rate for 2016-2019 and 2020-2021 respectively for comparison.
-    <br>3. As screenshot shows, adoption increase since 2020, yet the total number of adoption dropped.
+    <br>3. As screenshot shows, adoption increase since 2020 from 49% to around 54%, yet the total number of adoption dropped.
     
     ![Question4-1](链接链接)
     
@@ -119,7 +121,7 @@ The data aquired from all sources appeared to have been cleaned for analysis. To
     <br> 3. Reach conclusion that Oakland Animal Services showed significant increase in adoption rate and decrease in euthanasia rate.
     
     ![Question5-1](链接链接)
-    ![Question5-visualization1](链接链接)
+    ![Question5-visualization1](链接链接)(链接图片后 给图片加超链接到：https://infogram.com/question-5-vis-1-1hzj4o35jrw534p?live)
     
  
  
