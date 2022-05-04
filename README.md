@@ -59,6 +59,11 @@ Email: ericr@bestfriends.org & info@bestfriends.org
   <h5>3. Nathan Winograd, Executive Director, The No Kill Advocacy Center
 Email: info@nokilladvocacycenter.org</h5>
 <br>Nathan is only available by email but he could provide insight into the challenges of the no-kill campaign, especially in terms of legal difficulties. Nathan's No Kill Advocacy Center is based also in Oakland, CA and has been pushing for animal welfare legislation nationwide.
+
+  <h4>Methodology Note</h4>
+  To calculate euthanasia rate in this piece, I am referring to [this academic paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4217190/#ref-13), who introduced one of the ways to calculate. This method may be different than some other calculation formulas, such as the ones used by Best Friends Animal Society, etc. 
+  
+<br> *"The euthanasia rate is calculated by dividing the number of cats euthanized by total live intake, less owner requested euthanasia, and dead on arrival, in accordance with Maddie’s Fund/Asilomar reporting requirements (Maddie’s Fund, 2011). The Save Rate is calculated by subtracting the euthanasia rate from 100. The euthanasia rate does not include those cats who died of natural causes while in the shelter, which is 1% or less annually."*
   
   <h3>II. Data Analysis Questions and Visualizations</h3>
   <h4> Notes on data cleaning <h4>
